@@ -165,3 +165,156 @@ footer {
         width: 100%;
     }
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff5e6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-section {
+    flex: 1;
+}
+
+.safety-protocols,
+.clinic-info,
+.doctors-info {
+    margin-bottom: 20px;
+}
+
+.safety-protocols h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8c00;
+}
+
+.testimonial-section {
+    margin-top: 40px;
+}
+
+.testimonial-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    text-align: center;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    margin-top: 10px;
+}
+
+.beyond-dentistry-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.beyond-dentistry-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.beyond-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.beyond-items .item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.faq-section {
+    margin-top: 40px;
+}
+
+.faq-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links {
+    display: flex;
+
+
+}
+
+.footer-column {
+    margin: 25px;
+}
+
+.footer-links {
+    background-color: #4D2C19;
+    color: white;
+}
